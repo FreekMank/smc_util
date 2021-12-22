@@ -1,0 +1,7 @@
+#!/bin/bash
+
+# Start Target Display Mode such that the pc is used as external monitor right away
+# Note: The Power button toggles TDM (see /etc/acpi/events)
+pushd /home/freek/smc_util
+./tdm_on.sh
+popd

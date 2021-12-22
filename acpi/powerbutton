@@ -1,0 +1,2 @@
+event=button/power PBTN
+action=/etc/acpi/powerbutton.sh
