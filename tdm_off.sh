@@ -1,4 +1,5 @@
 #!/bin/bash
+rm -f tdm_started
 ./SmcDumpKey MVHR 0
 sleep 1
 ./SmcDumpKey MVMR 2
