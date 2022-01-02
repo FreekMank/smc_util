@@ -27,4 +27,15 @@ Restart acpid
 systemctl restart acpid
 ```
 
+Ignore default power key behavior:
+Update `/etc/systemd/logind.conf` and set:
+```
+HandlePowerKey=ignore
+```
+
+Restart systemd-logind
+```
+systemctl restart systemd-logind
+```
+
 _Note_: This was tested on a end-2009 27" iMac running Ubuntu 20.10
